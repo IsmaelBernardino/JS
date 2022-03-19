@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeApi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pokedex_bg">
+        <h1>POKEDEX</h1>
+        <div class="pokedex_container">
+            <div class="pd pokedex_img">
+                <img src="pokedex_img.png" alt="pokedex_1">
+                <div class="pokemon_view">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png" alt="Pokemon" id="pokeimg" class="pokeimg">
+                    <div class="pokemon_details">
+                        <div class="pokemon_num" id="number"></div>
+                        <div class="pokemon_name" id="name"></div>
+                    </div>
+                </div>
+                <input type="text" placeholder="Nombre o numero de pokemon" id="pokeName" class="input_name">
+                <button id="btn" class="btn">GO</button>
+            </div>
+            <div class="pd pokedex_info">
+                <img src="pokedex_info.png" alt="pokedex_2">
+                <div class="type" id="type"></div>
+                <div class="hp" id="hp"></div>
+                <div class="attack" id="attack"></div>
+                <div class="defense" id="defense"></div>
+                <div class="special_attack" id="special_attack"></div>
+                <div class="special_defense" id="special_defense"></div>
+                <div class="speed" id="speed"></div>
+                <div class="weight" id="weight"></div>
+                <div class="height" id="height"></div>
+                <div class="moves" id="moves"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
